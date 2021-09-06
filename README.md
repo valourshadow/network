@@ -1,17 +1,16 @@
 # network
 
-hello_client.c &hello_server.c  
+network program: server&client for hello world.
 
-server deliver  the same message for any  request.
+Complie:
 
-complie:
-gcc   filenme.c -o  executable filenname
+gcc  #filename.type  -o  #executable file
 
+Run:
 
-run：
-
-server:
-./executable filenname  <port id>
+server
+./#executable file  #port id
 
 client:
-./executable filenname   <IP>  <port id>
+
+./#executable file   #ip(127.0.0.1 for the same computer)  #port id
