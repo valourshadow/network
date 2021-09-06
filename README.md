@@ -8,7 +8,8 @@ gcc  #filename.type  -o  #executable file
 
 Run:
 
-server
+server:
+
 ./#executable file  #port id
 
 client:
