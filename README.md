@@ -1,19 +1,21 @@
 # network
 
-network program: server&client for hello world.
+## Network program: 
 
-Complie:
+server&client for hello world.
 
-
-gcc    #filename.type    -o    #executable file
-
-Run:
+## Complie:
 
 
-server:
+gcc 　#filename.type　-o　 #executable file
 
-./#executable file    #port id
+## Run:
 
-client:
 
-./#executable file     #ip(127.0.0.1 for the same computer)     #port id
+### server:
+
+./#executable file　#port id
+
+### client:
+
+./#executable file　#ip(127.0.0.1 for the same computer)　#port id
