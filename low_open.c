@@ -14,12 +14,19 @@ int main(void)
     {
         error_handing("open() error");
     }
+    printf("file descriptor: %d \n",fd);
 
+    if (write(fd, buf, sizeof(buf))==-1)
+    {
+        error_handing("write() error");
+    }
     close(fd);
     return 0;
 }
 
 void error_handing(char *message)
 {
-    
+    fputs(message, stderr);
+    fputc('\n', stderr);
+    exit(1);
 }
