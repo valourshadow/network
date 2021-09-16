@@ -9,6 +9,8 @@ server&client for hello world.
 
 gcc 　#filename.type　-o　 #executable file
 
+(add -lws2_32 for linker in win)
+
 ## Run:
 
 
